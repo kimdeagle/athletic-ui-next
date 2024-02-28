@@ -74,3 +74,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+button[data-state=open]>svg:first-child {
+  --tw-rotate: none;
+}
